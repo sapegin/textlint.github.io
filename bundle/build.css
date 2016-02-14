@@ -1,3 +1,23 @@
+/* Base */
+h2 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+ul {
+    margin: 0;
+    padding: auto 0;
+}
 /* Layout*/
 html, body {
     padding: 0;
@@ -98,7 +118,7 @@ html, body {
 
 .Header .Logo {
     margin-right: auto;
-    padding: 0.5rem 32px;
+    padding: 0.5rem 1.5rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -136,8 +156,7 @@ html, body {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    /**/
-    padding-right: 32px;
+    padding-right: 1.5rem;
 }
 
 .HeaderMenus, .HeaderMenuItem {
@@ -206,6 +225,21 @@ html, body {
     background-color: #FFF;
     border-color: #FFF;
 }
+.WhatIsTextLint {
+    background: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.WhatIsTextLint-title {
+    margin: 0;
+}
+
+.WhatIsTextLint-philosophy-list {
+    padding-left: calc(1.5rem + 1em)
+}
 .Footer-list {
     padding-left: 0;
     list-style: outside none none;
@@ -221,7 +255,11 @@ html, body {
 }
 .TextlintDemo {
     background-color: white;
-    border: 1px solid #ddd;
+}
+
+.TextlintDemo-title {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .TextlintDemo-ruleBox, .TextlintDemo-errorBox {
@@ -231,6 +269,8 @@ html, body {
 .TextlintDemo-Content {
     height: 100%;
     line-height: 1.5;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .TextlintDemo-Editor {
@@ -254,7 +294,7 @@ html, body {
     /* 縦位置をめにゅーと揃える */
     padding: 0;
     margin: 0;
-    padding-right: 32px;
+    padding-right: 1.5rem;
     text-align: right;
     background-color: #f4f4f4;
     color: #30363D;
@@ -299,7 +339,18 @@ html, body {
 .AddTextlintRule input {
     margin: 0 0.2rem;
 }
+/* Share */
+.header-has-icon:before {
+    content:"";
+    background: url("../img/textlint-icon_black-white-128x128.png") no-repeat left center;
+    background-size: 0.8em;
+    padding-right: 1em;
+}
 /* Utils */
 .u-padding-r32 {
     padding-right: 32px !important;
+}
+.u-inline-icon {
+    display: inline !important;
+    height: 1em !important;
 }
