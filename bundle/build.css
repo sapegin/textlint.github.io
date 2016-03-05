@@ -252,6 +252,13 @@ html, body {
 .WhatIsTextLint-philosophy-list {
     padding-left: calc(1.5rem + 1em)
 }
+.Fixable {
+    background: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+}
 .Footer-list {
     padding-left: 0;
     list-style: outside none none;
